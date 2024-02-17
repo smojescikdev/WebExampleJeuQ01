@@ -1,4 +1,4 @@
-package pl.codesrslab.Examples.webexamplejeuw01.session;
+package pl.codesrslab.Examples.webexamplejeuw01.session.zad1;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
