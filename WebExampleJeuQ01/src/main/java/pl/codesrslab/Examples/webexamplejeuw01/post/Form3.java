@@ -19,10 +19,10 @@ public class Form3 extends HttpServlet {
             resp.getWriter().println("Cannot calculate divisors for 0.");
             return;
         }
-
+        resp.getWriter().println("Dividers of: " + num + " are: ");
         for (int i = 1; i <= num; i++) {
             if (num % i == 0) {
-                resp.getWriter().println("Dividers of: " + num + " \n are: " + i);
+                resp.getWriter().println(i);
             }
         }
     }
