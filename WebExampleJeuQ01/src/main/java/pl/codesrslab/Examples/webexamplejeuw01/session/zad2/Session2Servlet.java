@@ -45,7 +45,7 @@ public class Session2Servlet extends HttpServlet {
             grades.add(grade);
             session.setAttribute("grades", grades);
             response.getWriter().println("Notes: " + grades.toString());
-
+// to mozna zrobic na for a nie na Streamach
             double avg = grades.stream().mapToInt(Integer::intValue).average().orElse(Double.NaN);
             response.getWriter().println("AVG:= " + avg);
 
