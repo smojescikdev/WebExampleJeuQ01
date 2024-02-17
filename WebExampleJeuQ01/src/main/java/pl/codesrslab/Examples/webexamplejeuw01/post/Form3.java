@@ -14,7 +14,7 @@ public class Form3 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int num = Integer.parseInt(req.getParameter("page"));
 
-        // Check if the input is 0 to avoid division by zero
+        // That's should be a separate class!!
         if (num == 0) {
             resp.getWriter().println("Cannot calculate divisors for 0.");
             return;
