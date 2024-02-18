@@ -1,10 +1,8 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Mojescik
-  Date: 18.02.2024
-  Time: 12:27
-  To change this template use File | Settings | File Templates.
---%>
+<%--Zadanie 2 - rozwiązywane z wykładowcą--%>
+<%--W projekcie stwórz servlet Mvc12 dostępny pod adresem /mvc12 , który wczyta dwie zmienne GET : start i end . Następnie:--%>
+
+<%--W servlecie zwiększ obie wartości o wartość 10, przekaż zwiększone zmienne do widoku jsp2.jsp.--%>
+<%--W widoku wyświetl wszystkie liczby od start do end.--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%--za pomoca ponizszej linijki mozemy uzywac biblioteki znacnzikow jsptl--%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
